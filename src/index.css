@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-navy text-white antialiased overflow-x-hidden;
+  }
+}
+
+/* Mesh Gradient Background */
+.mesh-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-color: #093C5D;
+  background-image: 
+    radial-gradient(at 0% 0%, #3B7597 0px, transparent 50%),
+    radial-gradient(at 100% 0%, #5DF8D8 0px, transparent 50%),
+    radial-gradient(at 100% 100%, #3B7597 0px, transparent 50%),
+    radial-gradient(at 0% 100%, #5DF8D8 0px, transparent 50%);
+  filter: blur(100px);
+  opacity: 0.8;
+}
+
+/* Custom Scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #093C5D;
+}
+::-webkit-scrollbar-thumb {
+  background: #3B7597;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #5DF8D8;
+}
