@@ -20,7 +20,7 @@ export const socialLinks = [
   },
   {
     name: 'LinkedIn',
-    url: 'https://linkedin.com/in/nazwatuzhakiya', // Assuming standard url since not provided
+    url: 'https://www.linkedin.com/in/nazwatuzhakiyalatansha',
     icon: <Linkedin className="w-5 h-5" />
   },
   {
@@ -41,7 +41,7 @@ export default function SocialLinks({ className = "flex gap-4" }) {
           rel="noopener noreferrer"
           whileHover={{ scale: 1.15, y: -2 }}
           whileTap={{ scale: 0.95 }}
-          className="p-3 bg-white/5 border border-white/10 rounded-xl hover:bg-mint/20 hover:border-mint transition-all text-white hover:text-mint shadow-[0_0_0_rgba(93,248,216,0)] hover:shadow-[0_0_20px_rgba(93,248,216,0.6)] cursor-none flex items-center justify-center"
+          className="p-3 bg-white/5 border border-white/10 rounded-xl hover:bg-mint/20 hover:border-mint transition-all text-white hover:text-mint shadow-[0_0_0_rgba(93,248,216,0)] hover:shadow-[0_0_20px_rgba(93,248,216,0.6)] flex items-center justify-center"
           aria-label={link.name}
         >
           {link.icon}

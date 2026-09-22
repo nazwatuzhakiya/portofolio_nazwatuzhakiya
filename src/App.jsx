@@ -8,12 +8,9 @@ import Education from './components/Education';
 import Leadership from './components/Leadership';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-import CustomCursor from './components/CustomCursor';
-
 function App() {
   return (
-    <div className="relative min-h-screen cursor-none">
-      <CustomCursor />
+    <div className="relative min-h-screen">
       <div className="mesh-bg"></div>
       
       <Navbar />

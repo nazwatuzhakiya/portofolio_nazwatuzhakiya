@@ -1,5 +1,4 @@
 {
-  "name": "nazwatuzhakiya",
   "framework": "vite",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }

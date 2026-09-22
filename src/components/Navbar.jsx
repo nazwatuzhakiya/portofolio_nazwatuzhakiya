@@ -25,8 +25,10 @@ export default function Navbar() {
       }`}
     >
       <div className="container mx-auto px-6 flex flex-col lg:flex-row justify-between items-center gap-4">
-        <div className="text-white font-medium tracking-tighter text-sm sm:text-base hover:text-cream transition-colors">
-          <a href="mailto:nazwatuzhakiya@gmail.com">nazwatuzhakiya@gmail.com</a>
+        <div>
+          <a href="#home" className="text-white font-bold tracking-tight text-base sm:text-lg hover:text-mint transition-colors">
+            Nazwatuzhakiya<span className="text-mint">.</span>
+          </a>
         </div>
         
         <div className="flex items-center gap-6">
